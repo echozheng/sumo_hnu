@@ -1,0 +1,17 @@
+<tazs>
+  <taz id="1">
+    <tazSource id="e_0" weight="3"/>
+    <tazSource id="e_14" weight="7"/>
+	<tazSink id="e_82"  weight="1"/>
+	<tazSink id="e_46"  weight="2"/>
+	<tazSink id="e_62"  weight="3"/>
+	<tazSink id="e_36"  weight="4"/>
+  </taz>
+  <taz id="2">
+    <tazSource id="e_86" weight="10"/>
+	<tazSink id="e_56"  weight="2"/>
+	<tazSink id="e_68"  weight="2"/>
+	<tazSink id="e_124"  weight="3"/>
+	<tazSink id="e_90"  weight="2"/>
+  </taz>
+</tazs>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+	<!-- 从左下角 算起，第一行 -->
+	<node id="node1" x="100.0" y="100.0" type="traffic_light"/>
+	<node id="node2" x="200.0" y="100.0" type="priority"/>
+	<node id="node3" x="300.0" y="100.0" type="priority"/>
+	<node id="node4" x="400.0" y="100.0" type="priority"/>
+	<node id="node5" x="500.0" y="100.0" type="priority"/>
+	
+	<!-- second line -->
+	<node id="node6" x="100.0" y="200.0" type="priority"/>
+	<node id="node7" x="200.0" y="200.0" type="traffic_light"/>
+	<node id="node8" x="300.0" y="200.0" type="traffic_light"/>
+	<node id="node9" x="400.0" y="200.0" type="traffic_light"/>
+	<node id="node10" x="500.0" y="200.0" type="priority"/>
+	
+	<!-- third line -->
+	<node id="node11" x="100.0" y="300.0" type="priority"/>
+	<node id="node12" x="200.0" y="300.0" type="traffic_light"/>
+	<node id="node13" x="300.0" y="300.0" type="traffic_light"/>
+	<node id="node14" x="400.0" y="300.0" type="traffic_light"/>
+	<node id="node15" x="500.0" y="300.0" type="priority"/>
+	
+	<!--  the forth line -->
+	<node id="node16" x="100.0" y="400.0" type="priority"/>
+	<node id="node17" x="200.0" y="400.0" type="traffic_light"/>
+	<node id="node18" x="300.0" y="400.0" type="traffic_light"/>
+	<node id="node19" x="400.0" y="400.0" type="traffic_light"/>
+	<node id="node20" x="500.0" y="400.0" type="priority"/>
+	
+	<!-- the fifth line -->
+	<node id="node21" x="100.0" y="500.0" type="traffic_light"/>
+	<node id="node22" x="200.0" y="500.0" type="priority"/>
+	<node id="node23" x="300.0" y="500.0" type="priority"/>
+	<node id="node24" x="400.0" y="500.0" type="priority"/>
+	<node id="node25" x="500.0" y="500.0" type="traffic_light"/>
+</nodes>

@@ -1,0 +1,6 @@
+<addtional>
+    <inductionLoop id="d1" lane="edgeE_A_0" pos="260" freq="1000" file="cross1.xml" friendlyPos="x"/>
+    <inductionLoop id="d2" lane="edgeE_A_1" pos="260" freq="1000" file="cross2.xml" friendlyPos="x"/>
+    <inductionLoop id="d3" lane="edgeD_A_0" pos="-50" freq="1000" file="cross3.xml" friendlyPos="x"/>
+    <inductionLoop id="d4" lane="edgeD_A_1" pos="-50" freq="1000" file="cross4.xml" friendlyPos="x"/>
+</addtional>

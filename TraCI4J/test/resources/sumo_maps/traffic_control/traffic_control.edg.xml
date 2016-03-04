@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/edges_file.xsd">
+    <edge id="edgeB_A" from="nodeB" to="nodeA" type="a"></edge>
+    <edge id="edgeA_B" from="nodeA" to="nodeB" type="a"></edge>
+    <edge id="edgeA_C" from="nodeA" to="nodeC" type="a"></edge>
+    <edge id="edgeC_A" from="nodeC" to="nodeA" type="a"></edge>
+    <edge id="edgeD_A" from="nodeD" to="nodeA" type="a"></edge>
+    <edge id="edgeA_D" from="nodeA" to="nodeD" type="a"></edge>
+    <edge id="edgeA_E" from="nodeA" to="nodeE" type="a"></edge>
+    <edge id="edgeE_A" from="nodeE" to="nodeA" type="a"></edge>
+</edges>

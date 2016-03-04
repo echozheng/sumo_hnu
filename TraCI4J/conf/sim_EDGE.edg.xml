@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges> 
+	<!-- 从左下角起，右行的边先开始，每条边都是双车道-->
+	<edge id="edgeR-1-2" from="node1" to="node2" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-2-3" from="node2" to="node3" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-3-4" from="node3" to="node4" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-4-5" from="node4" to="node5" priority="75" numLanes="2" speed="60" />
+	
+	<edge id="edgeL-2-1" from="node2" to="node1" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-3-2" from="node3" to="node2" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-4-3" from="node4" to="node3" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-5-4" from="node5" to="node4" priority="75" numLanes="2" speed="60" />
+	
+	<!-- the second line -->
+	<edge id="edgeR-6-7" from="node6" to="node7" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-7-8" from="node7" to="node8" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-8-9" from="node8" to="node9" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-9-10" from="node9" to="node10" priority="75" numLanes="2" speed="60" />
+	
+	<edge id="edgeL-7-6" from="node7" to="node6" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-8-7" from="node8" to="node7" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-9-8" from="node9" to="node8" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-10-9" from="node10" to="node9" priority="75" numLanes="2" speed="60" />
+	
+	<!-- the third line -->
+	<edge id="edgeR-11-12" from="node11" to="node12" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-12-13" from="node12" to="node13" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-13-14" from="node13" to="node14" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-14-15" from="node14" to="node15" priority="75" numLanes="2" speed="60" />
+	
+	<edge id="edgeL-12-11" from="node12" to="node11" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-13-12" from="node13" to="node12" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-14-13" from="node14" to="node13" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-15-14" from="node15" to="node14" priority="75" numLanes="2" speed="60" />
+	
+	<!-- the forth line -->
+	<edge id="edgeR-16-17" from="node16" to="node17" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-17-18" from="node17" to="node18" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-18-19" from="node18" to="node19" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-19-20" from="node19" to="node20" priority="75" numLanes="2" speed="60" />
+	
+	<edge id="edgeL-17-16" from="node17" to="node16" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-18-17" from="node18" to="node17" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-19-18" from="node19" to="node18" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-20-19" from="node20" to="node19" priority="75" numLanes="2" speed="60" />
+	
+	<!-- the fifth line -->
+	<edge id="edgeR-21-22" from="node21" to="node22" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-22-23" from="node22" to="node23" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-23-24" from="node23" to="node25" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeR-24-25" from="node24" to="node25" priority="75" numLanes="2" speed="60" />
+	
+	<edge id="edgeL-22-21" from="node22" to="node21" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-23-22" from="node23" to="node22" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-24-23" from="node24" to="node23" priority="75" numLanes="2" speed="60" />
+	<edge id="edgeL-25-24" from="node25" to="node24" priority="75" numLanes="2" speed="60" />
+	
+	
+	<!-- 从左下角开始，上行的边先开始 -->
+	<!-- the first line -->
+	<edge id="edgeU-1-6" from="node1" to="node6" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-6-11" from="node6" to="node11" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-11-16" from="node11" to="node16" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-16-21" from="node16" to="node21" priority="75" numLanes="2" speed="60"/>
+	
+	<edge id="edgeD-6-1" from="node6" to="node1" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-11-6" from="node11" to="node6" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-16-11" from="node16" to="node11" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-21-16" from="node21" to="node16" priority="75" numLanes="2" speed="60"/>
+	
+	<!-- the second line -->
+	<edge id="edgeU-2-7" from="node2" to="node7" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-7-12" from="node7" to="node12" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-12-17" from="node12" to="node17" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-17-22" from="node17" to="node22" priority="75" numLanes="2" speed="60"/>
+	
+	<edge id="edgeD-7-2" from="node7" to="node2" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-12-7" from="node12" to="node7" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-17-12" from="node17" to="node12" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-22-17" from="node22" to="node17" priority="75" numLanes="2" speed="60"/>
+	
+	<!-- the third line -->
+	<edge id="edgeU-3-8" from="node3" to="node8" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-8-13" from="node8" to="node13" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-13-18" from="node13" to="node18" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-18-23" from="node18" to="node23" priority="75" numLanes="2" speed="60"/>
+	
+	<edge id="edgeD-8-3" from="node8" to="node3" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-13-8" from="node13" to="node8" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-18-13" from="node18" to="node13" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-23-18" from="node23" to="node18" priority="75" numLanes="2" speed="60"/>
+	
+	<!-- the forth line -->
+	<edge id="edgeU-4-9" from="node4" to="node9" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-9-14" from="node9" to="node14" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-14-19" from="node14" to="node19" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-19-24" from="node19" to="node24" priority="75" numLanes="2" speed="60"/>
+	
+	<edge id="edgeD-9-4" from="node9" to="node4" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-14-9" from="node14" to="node9" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-19-14" from="node19" to="node14" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-24-19" from="node24" to="node19" priority="75" numLanes="2" speed="60"/>
+	
+	<!-- the fifth line -->
+	<edge id="edgeU-5-10" from="node5" to="node10" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-10-15" from="node10" to="node15" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-15-20" from="node15" to="node20" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeU-20-25" from="node20" to="node25" priority="75" numLanes="2" speed="60"/>
+	
+	<edge id="edgeD-10-5" from="node10" to="node5" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-15-10" from="node15" to="node10" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-20-15" from="node20" to="node15" priority="75" numLanes="2" speed="60"/>
+	<edge id="edgeD-25-20" from="node25" to="node20" priority="75" numLanes="2" speed="60"/>
+	
+</edges>

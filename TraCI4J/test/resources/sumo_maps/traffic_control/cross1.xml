@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2016年01月11日 星期一 17时08分23秒 by SUMO gui Version 0.25.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumo-gui.exeConfiguration.xsd">
+
+    <input>
+        <net-file value="test/resources/sumo_maps/traffic_control/traffic_control.net.xml"/>
+        <route-files value="test/resources/sumo_maps/traffic_control/traffic_control.rou.xml"/>
+        <additional-files value="test/resources/sumo_maps/traffic_control/traffic_control.det.xml"/>
+    </input>
+
+    <output>
+        <save-state.prefix value="test/resources/sumo_maps/traffic_control/state"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="1.000"/>
+    </time>
+
+    <report>
+        <xml-validation value="never"/>
+    </report>
+
+    <emissions>
+        <phemlight-path value="test/resources/sumo_maps/traffic_control/./PHEMlight/"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="54777"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="12345"/>
+    </random_number>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+   <interval begin="0.00" end="121.00" id="d1" nVehContrib="1" flow="29.75" occupancy="0.32" speed="12.99" length="5.00" nVehEntered="1"/>
+</detector>

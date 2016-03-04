@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/nodes_file.xsd">
+    <node id="nodeA" x="0" y="0" type="traffic_light"></node>
+    <node id="nodeB" x="-300" y="0"></node>
+    <node id="nodeC" x="300" y="0"></node>
+    <node id="nodeD" x="0" y="-300"></node>
+    <node id="nodeE" x="0" y="300"></node>
+</nodes>

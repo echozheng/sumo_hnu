@@ -1,0 +1,49 @@
+<routes>
+    <vType id="typeWE" accel="4" decel="5" sigma="0.5" length="5" minGap="2.5" maxSpeedd="16"></vType>
+    <vType id="typeNS" accel="4" decel="5" sigma="0.5" length="5" minGap="2.5" maxSpeedd="16"></vType>
+
+    <route id="right" edges="edgeB_A edgeA_C"></route>
+    <route id="left" edges="edgeC_A edgeA_B"></route>
+    <route id="down" edges="edgeE_A edgeA_D"></route>
+    <route id="up" edges="edgeD_A edgeA_E"></route>
+
+    <!-- 定义车辆-->
+    <vehicle id="right_0" type="typeWE" route="right" depart="0"/>
+    <vehicle id="left_0" type="typeWE" route="left" depart="1"/>
+    <vehicle id="right_1" type="typeWE" route="right" depart="2"/>
+    <vehicle id="left_1" type="typeWE" route="left" depart="3"/>
+    <vehicle id="right_2" type="typeWE" route="right" depart="4"/>
+    <vehicle id="down_0" type="typeNS" route="down" depart="5" color="1,1,1"/> 
+    <vehicle id="right_3" type="typeWE" route="right" depart="6"/>
+    <vehicle id="left_2" type="typeWE" route="left" depart="7"/>
+    <vehicle id="right_4" type="typeWE" route="right" depart="8"/>
+    <!-- <vehicle id="down_1" type="typeNS" route="down" depart="9" color="1,1,1"/> -->
+    <vehicle id="right_5" type="typeWE" route="right" depart="10"/>
+    <vehicle id="left_3" type="typeWE" route="left" depart="11"/>
+    <vehicle id="right_6" type="typeWE" route="right" depart="12"/>
+    <vehicle id="left_4" type="typeWE" route="left" depart="13"/>
+    <vehicle id="right_7" type="typeWE" route="right" depart="14"/>
+    <vehicle id="left_5" type="typeWE" route="left" depart="15"/>
+    <vehicle id="right_8" type="typeWE" route="right" depart="16"/>
+    <vehicle id="left_6" type="typeWE" route="left" depart="17"/>
+    <vehicle id="right_9" type="typeWE" route="right" depart="18"/>
+    <!-- <vehicle id="down_2" type="typeNS" route="down" depart="19" color="1,1,1"/> -->
+    <vehicle id="right_10" type="typeWE" route="right" depart="20"/>
+    <vehicle id="left_7" type="typeWE" route="left" depart="21"/>
+    <vehicle id="right_11" type="typeWE" route="right" depart="22"/>
+    <vehicle id="left_8" type="typeWE" route="left" depart="23"/>
+    <vehicle id="right_12" type="typeWE" route="right" depart="24"/>
+    <vehicle id="left_9" type="typeWE" route="left" depart="25"/>
+    <vehicle id="right_13" type="typeWE" route="right" depart="26"/>
+    <vehicle id="left_10" type="typeWE" route="left" depart="27"/>
+    <vehicle id="right_14" type="typeWE" route="right" depart="28"/>
+    <vehicle id="left_11" type="typeWE" route="left" depart="29"/>
+    <vehicle id="right_15" type="typeWE" route="right" depart="30"/>
+    <vehicle id="left_12" type="typeWE" route="left" depart="31"/>
+    <!-- <vehicle id="up_0" type="typeNS" route="up" depart="32" color="1,0,1"/> -->
+    <vehicle id="left_13" type="typeWE" route="left" depart="33"/>
+    <!--    <vehicle id="up_1" type="typeNS" route="up" depart="34" color="1,0,1"/> -->
+    <vehicle id="left_14" type="typeWE" route="left" depart="35"/>
+    <vehicle id="up_2" type="typeNS" route="up" depart="36" color="1,0,1"/>
+    <vehicle id="left_15" type="typeWE" route="left" depart="38"/>
+</routes>
