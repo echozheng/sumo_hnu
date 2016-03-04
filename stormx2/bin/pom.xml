@@ -1,0 +1,95 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>cn.edu.hnu.storm</groupId>
+  <artifactId>stormx2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>stormx2</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+<!-- 包依赖 -->
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- storm 依赖 -->
+    <dependency>
+  		<groupId>storm</groupId>
+  		<artifactId>storm-core</artifactId>
+  		<version>0.9.0.1</version>
+	</dependency>
+	
+  </dependencies>
+  
+  <!-- 添加代码库 -->
+  <repositories>
+  	<repository>
+  		<id>clojars.org</id>
+  		<url>http://clojars.org/repo</url>
+  	</repository>
+  </repositories>
+  
+  <build>
+  	<finalName>stormx2</finalName>
+  	<!-- <resources>  
+            <resource>  
+                <directory>src/main/java/</directory>  
+                <excludes>  
+                    <exclude>*.java</exclude>  
+                </excludes>  
+            </resource>  
+    </resources>   -->
+    
+  	<plugins>
+  		<!-- 配置maven-surefire-plugin,这个插件用于 build项目 -->
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-surefire-plugin</artifactId>
+  			<configuration>
+  				<skip>true</skip>
+  			</configuration>	
+  		</plugin>
+  		
+  		<!-- 配置maven-assembly-plugin插件-->
+  		<!-- 该插件使用mvn package命令进行打包的时候，再额外打包出一个包含全部依赖的大jar包，
+  			该大jar包的后缀名 由descriptorRef项的内容决定。另外，需要在第28行制定该jar包的运行的入口main类
+  		 -->
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-assembly-plugin</artifactId>
+  			<configuration>
+  				<descriptorRefs>
+  					<descriptorRef>jar-with-all-dependencies</descriptorRef>
+  				</descriptorRefs>
+  				<archive>
+  					<manifest>
+  						<!-- 设置入口主函数的类名 -->
+  						<mainClass>ExclamationTopology</mainClass>
+  					</manifest>
+  				</archive>
+  			</configuration>
+  			<executions>
+  				<execution>
+  					<id>make-assembly</id>
+  					<phase>package</phase>
+  					<goals>
+  						<goal>single</goal>
+  					</goals>
+  				</execution>
+  			</executions>
+  		</plugin>
+  	</plugins>
+  	
+  </build>
+</project>
